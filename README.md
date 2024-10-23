@@ -1,7 +1,7 @@
 # 2024-FASE6-BSI2022
 
 Ao baixar (somente na primeira vez):
-1. git clone https://github.com/ifcvarela/2024-bsi22-fase6....web-dev2....pessoa-rest-api
+1. git clone https://github.com/Henrique-Jost/2024-FASE6-BSI2022-2022004387
 2. no terminal digitar: npm install
 
 Para rodar o servidor:
