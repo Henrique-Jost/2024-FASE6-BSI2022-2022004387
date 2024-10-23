@@ -65,3 +65,16 @@ document.addEventListener('submit', async (event) => {
     return
   }
 })
+
+document.addEventListener('DOMContentLoaded', () => {
+  const form = document.querySelector('form');
+  const password = document.querySelector('input[name="password"]');
+  const passwordConfirm = document.querySelector('input[name="password-confirm"]');
+
+  form.addEventListener('submit', (event) => {
+    if (password.value !== passwordConfirm.value) {
+      event.preventDefault(); // Impede o envio do formulário
+      alert('As senhas não coincidem.'); // Mensagem de erro
+    }
+  });
+});
